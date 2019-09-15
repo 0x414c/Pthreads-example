@@ -9,7 +9,7 @@ set (CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/CMake/Modules)
 ## -----------------------------------------------------------------------------
 
 set (_PROJECT_NAME Pthreads-example CACHE INTERNAL "Project name" FORCE)
-set (_PROJECT_VERSION 0.0.1.0 CACHE STRING "Target version" FORCE)
+set (_PROJECT_VERSION 0.0.1.0 CACHE STRING "Project version" FORCE)
 
 set (_TARGET_NAME pthreads-example CACHE STRING "Target name" FORCE)
 set (_TARGET_PLATFORM MinGW-w64 CACHE STRING "Target platform" FORCE)
